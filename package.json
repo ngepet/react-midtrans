@@ -37,7 +37,7 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "bundlesize": "^0.17.1",
+    "bundlesize": "^0.18.1",
     "documentation": "^9.2.0",
     "eslint": "^5.14.1",
     "eslint-config-prettier": "^3.3.0",
