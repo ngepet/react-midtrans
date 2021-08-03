@@ -1,10 +1,7 @@
 {
   "name": "react-midtrans",
-  "version": "0.0.1",
-  "description": "ReactJS Integration For Midtrans Payment Gateway Frontend Integration",
-  "repository": "git@github.com:ri7nz/react-midtrans.git",
-  "author": "ri7nz <ri7nz.labs@gmail.com>",
-  "license": "MIT",
+  "version": "1.0.2",
+  "description": "unofficial midtrans payment gateway",
   "source": "src/index.js",
   "main": "dist/react-midtrans.js",
   "module": "dist/react-midtrans.es.js",
@@ -97,9 +94,9 @@
     "fixreadme": "node -e 'var fs=require(\"fs\");fs.writeFileSync(\"README.md\", fs.readFileSync(\"README.md\", \"utf8\").replace(/^-   /gm, \"- \"))'",
     "release": "yarn -s prepare && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
-   "repository": {
+  "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngepet/react-midtrans.git"
+    "url": "git+https://github.com/whatnowangga/react-midtrans.git"
   },
   "keywords": [
     "react",
@@ -107,4 +104,10 @@
     "payment",
     "gateway"
   ],
+  "author": "whatnowangga <anggaand123@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whatnowangga/react-midtrans/issues"
+  },
+  "homepage": "https://github.com/whatnowangga/react-midtrans#readme"
 }
